@@ -51,6 +51,16 @@ import { Image } from 'next-prefixed';
 const Example = () => <Image src="pony.png" alt="Valiant Horse" />;
 ```
 
+#### Video
+
+Passes all props to HTML `video` tag.
+
+```js
+import { Video } from 'next-prefixed';
+
+const Example = () => <Video src="pony.mp4" alt="Galloping Horse" />;
+```
+
 #### Link
 
 Passes all props to next.js `Link` component.

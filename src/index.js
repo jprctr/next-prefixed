@@ -18,6 +18,8 @@ export const prefixURL = url => {
 
 export const Image = props => <img {...props} src={prefixURL(props.src)} />;
 
+export const Video = props => <video {...props} src={prefixURL(props.src)} />;
+
 export const Link = props => (
   <NextLink {...props} as={prefixURL(props.as || props.to || props.href)} />
 );

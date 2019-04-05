@@ -34,6 +34,13 @@ exports[`[with prefix a/path] Link 3`] = `
 </a>
 `;
 
+exports[`[with prefix a/path] Video 1`] = `
+<video
+  alt="foo"
+  src="a/path/static/foo.mp4"
+/>
+`;
+
 exports[`[with prefix a-prefix/] Image 1`] = `
 <img
   alt="Cabo"
@@ -66,6 +73,13 @@ exports[`[with prefix a-prefix/] Link 3`] = `
 >
   First Post
 </a>
+`;
+
+exports[`[with prefix a-prefix/] Video 1`] = `
+<video
+  alt="foo"
+  src="a-prefix/static/foo.mp4"
+/>
 `;
 
 exports[`[with prefix my_prefix] Image 1`] = `
@@ -102,6 +116,13 @@ exports[`[with prefix my_prefix] Link 3`] = `
 </a>
 `;
 
+exports[`[with prefix my_prefix] Video 1`] = `
+<video
+  alt="foo"
+  src="my_prefix/static/foo.mp4"
+/>
+`;
+
 exports[`[with prefix some-prefix////] Image 1`] = `
 <img
   alt="Cabo"
@@ -134,4 +155,11 @@ exports[`[with prefix some-prefix////] Link 3`] = `
 >
   First Post
 </a>
+`;
+
+exports[`[with prefix some-prefix////] Video 1`] = `
+<video
+  alt="foo"
+  src="some-prefix/static/foo.mp4"
+/>
 `;

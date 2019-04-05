@@ -62,6 +62,13 @@ const render = element => renderer.create(element).toJSON();
       ).toMatchSnapshot();
     });
 
+    test('Video', () => {
+      const { Video } = require('../src');
+      expect(
+        render(<Video src="static/foo.mp4" alt="foo" />)
+      ).toMatchSnapshot();
+    });
+
     test('Link', () => {
       const { Link } = require('../src');
       expect(
